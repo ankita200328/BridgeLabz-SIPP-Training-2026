@@ -1,0 +1,12 @@
+
+
+
+class Fileinputoutput{
+     public FileReader(String FileName)
+      public static void main(String[] args){
+      try{
+        FileReader file= new Reader("demo.txt");
+        file.read("hii my name is Sahil);      //file.write= non-static parameterized overloaded method
+      }
+      catch(Exception e){
+         e.printStackTrace();
