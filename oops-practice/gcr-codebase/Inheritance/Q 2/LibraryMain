@@ -1,0 +1,19 @@
+class LibraryMain{
+
+
+     public void display(){
+     Book b=newBook("Dopamine", "2004");
+     Author a= new Author("Pankaj Sharma", "Male",b);
+
+
+
+     Book b2=new Book("Narration of Idiots", "2008");
+     Author a2 = new Author("Lakh Tyagi", "Male", b2);
+
+
+     System.out.println(a.toString());
+     System.out.println(a2.toString());
+    public static void main(String[] args){
+
+
+  }      
