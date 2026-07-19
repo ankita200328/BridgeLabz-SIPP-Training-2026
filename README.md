@@ -1,5 +1,4 @@
 # BridgeLabz-SIPP-Training-2026
-# BridgeLabz SIPP Training 2026
 
 ## 📘 Overview
 This repository contains Data Structures and Algorithms (DSA)  Basis of JAVA training exercises.
