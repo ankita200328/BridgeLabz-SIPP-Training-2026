@@ -1,0 +1,29 @@
+package TopKLargestCustomers;
+import java.util.*;
+
+public class TopKLargest {
+    static List<Integer> topKLargest(int[] arr, int k) {
+
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+
+        for (int num : arr) {
+
+            if (minHeap.size() < k)
+                minHeap.offer(num);
+
+            else if (num > minHeap.peek()) {
+                minHeap.poll();
+                minHeap.offer(num);
+            }
+        }
+
+        return new ArrayList<>(minHeap);
+    }
+
+    public static void main(String[] args) {
+
+        int[] arr = {15, 5, 90, 22, 8, 100};
+
+        System.out.println(topKLargest(arr, 3));
+    }
+}
